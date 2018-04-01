@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sample Test Suite" verbose="1" >
+  <test name="Method Test Cases" >
+  
+     <parameter name = "browser" value="firefox"/> 
+     
+     <parameter name = "n" value="Dhananjaya"/>
+     <parameter name = "username" value="Dhanu123"/>
+     <parameter name = "password" value="Pass123"/>
+     
+     
+         <classes>
+           <class name = "testngstuff.BrowserInitiate"/>
+           <class name = "testngstuff.ParameterTest"/>
+        <!--  <class name = "testngstuff.SeleniumTest1"/>
+              <class name = "testngstuff.SeleniumTest2"/>
+              <class name = "testngstuff.SeleniumTest3"/> -->
+        <!--  <class name = "testngstuff.DataProviderExample"/> 
+              <class name = "testngstuff.GlobalFunctions"/> -->
+           
+         </classes> 
+         
+ <!--    <classes>
+           <class name = "testngstuff.ParameterTest"/>
+         </classes> -->
+  
+ <!--  <groups>
+         <run>
+            <include name = "Group3" />
+         </run>
+      </groups> 
+
+      <classes>
+         <class name = "testngstuff.GroupTest"/>
+      </classes>   -->
+      
+ <!--  <classes>
+       <class name="testngstuff.Annotations">
+       <methods>
+        <include name="testcase1" />
+        <include name="testcase2" />
+        <exclude name="testcase3" />
+       </methods>
+       </class>
+       <class name="testngstuff.NewTest1">
+       </class>
+    </classes> -->
+  </test>
+</suite>

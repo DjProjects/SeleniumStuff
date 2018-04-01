@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample Test Suite]">
+  <test thread-count="5" name="Method Test Cases(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testngstuff.SeleniumTest1">
+        <methods>
+          <include name="afterTest"/>
+          <include name="test11"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testngstuff.SeleniumTest1 -->
+    </classes>
+  </test> <!-- Method Test Cases(failed) -->
+</suite> <!-- Failed suite [Sample Test Suite] -->
